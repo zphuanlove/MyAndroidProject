@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/mRlTitleBarOuter"
+    android:background="@drawable/title_bg" >
+
+    <ImageButton
+        android:layout_centerVertical="true"
+        android:id="@+id/actionbar_img_btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:src="@drawable/btn_close_selector"
+        android:background="@drawable/transparent_drawable"
+        android:visibility="gone"
+       />
+    <TextView
+        android:layout_centerVertical="true"
+        android:id="@+id/actionbar_text_view_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@drawable/transparent_drawable"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/actionbar_txt_view_title"
+        style="@style/title_text_style"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/actionbar_img_view_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+         />
+
+    <ImageView
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+
+        android:visibility="visible"
+        android:id="@+id/mIvRight"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/actionbar_img_btn_right"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/actionbar_txt_view_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:singleLine="true"
+        android:textColor="@color/btn_post_text_color"
+        android:textSize="16sp"
+        android:text="Post"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+
+    /**用于设定数据库的名字*/
+    <dbname value="huan" ></dbname>
+
+    /**用于设定数据库的版本号*/
+    <version value="1" ></version>
+
+    /**list用于设定所有的映射模型(表)*/
+    <list>
+        <!--<mapping class="net.blastapp.modle.UserInfo"></mapping>-->
+        <!--<mapping class="net.blastapp.modle.GpsPoints"></mapping>-->
+        <!--<mapping class="net.blastapp.modle.HistoryList"></mapping>-->
+        <!--<mapping class="net.blastapp.modle.BlastUserInfo"></mapping>-->
+        <!--<mapping class="net.blastapp.modle.FeedDetailDB"></mapping>-->
+
+        <!--<mapping class="net.blastapp.modle.FollowUser"></mapping>-->
+        <!--<mapping class="net.blastapp.modle.EveryKmPaceTable"></mapping>-->
+        <!--<mapping class="net.blastapp.modle.BlastComments"></mapping>-->
+        <!--<mapping class="net.blastapp.modle.StatisticItem"></mapping>-->
+        <!--<mapping class="net.blastapp.modle.MyBlastComments"></mapping>-->
+        <!--<mapping class="net.blastapp.modle.SourceLocation"></mapping>-->
+        <!--<mapping class="net.blastapp.modle.SourcePoint"></mapping>-->
+        <!--<mapping class="net.blastapp.modle.SystemNotification"></mapping>-->
+        <!--<mapping class="net.blastapp.modle.SportsDairy"></mapping>-->
+        <!--<mapping class="net.blastapp.modle.SysInfo"></mapping>-->
+    </list>
+</litepal>
